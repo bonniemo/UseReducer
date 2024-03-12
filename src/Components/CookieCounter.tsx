@@ -51,7 +51,7 @@ const CookieCounter = () => {
       <button type="button" onClick={handleEatInput}>Eat this amount</button>
     </form>
     <button onClick={() => dispatch ({ type: ACTION.EAT }) }>Eat a Cookie!</button>
-    <button onClick={() => dispatch ({type: ACTION.BAKE})}>Bake a Cookie</button>
+    <button onClick={() => dispatch ({type: ACTION.BAKE})}>Bake more Cookies</button>
     <button onClick={() => dispatch ({type: ACTION.BINGE})}>BINGE</button>
     <button onClick={() => dispatch ({type: ACTION.EATALL})}>Eat them All</button>
     <button onClick={() => dispatch ({type: ACTION.EATHALF})}>Eat half</button>
